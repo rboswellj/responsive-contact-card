@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(153, 188, 210);
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+    border-radius: 5%;
+    text-align: center;
+    gap: 10px;
+}
+
+main img {
+    border-radius: 100%;
+    max-height: 350px;
+    border: 5px solid black;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(182, 80, 80);
+}
+
+h2 {
+    font-size: 1.7rem;
+    color: rgb(61, 61, 151);
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (min-width: 700px) {
+    .container {
+        flex-direction: row;;
+    }
+    
+    main {
+        text-align: left;;
+    }
+}
